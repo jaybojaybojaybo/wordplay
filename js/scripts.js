@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     var textInput = $("input#textInput").val();
     var textInput2 = $("input#textInput").val();
-    if (textInput === ("Good Soup" || "Lit!" || "Saw, dude!")) {
+    if (textInput === "Good Soup!" || textInput === "Lit!" || textInput === "Saw, dude!") {
         $("#input").text(textInput);
         $("griffin").show();
     } else {
